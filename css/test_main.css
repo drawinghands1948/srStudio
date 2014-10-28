@@ -1,0 +1,60 @@
+body{
+	background-color: black;
+}
+
+/*page1*/
+.page1{
+	max-width:100%;
+	margin:0px auto;
+	display:block;
+	background: black;
+}
+
+/*page2*/
+.page2{
+	margin:0 auto;
+}
+
+/*page2A*/
+.page2A{
+	margin:0 auto;
+}
+
+.container{
+	max-width: 900px;
+	margin: 0px auto;
+	
+}
+
+.hello{"text-align:center; margin:400px auto; font-family: 'Shadows Into Light Two', cursive; font-size: 40px;}
+
+/* page2B */
+.2B{
+	text-align: center;
+}
+a{
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	}
+
+a:hover{
+	color: yellow;
+}
+
+
+
+/* Utilities */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
