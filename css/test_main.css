@@ -7,6 +7,13 @@ img  {
   display: block;
   box-shadow: 0 0 3em rgba(255,255,255,0.5);
   animation: glow 1s alternate infinite linear;
+  -webkit-animation: glow 1s alternate infinite linear;
+}
+
+@-webkit-keyframes glow {
+ to {
+   box-shadow: 0 0 3em white;
+ }
 }
 
 @keyframes glow {
